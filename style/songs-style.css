@@ -106,6 +106,13 @@ a:hover {
     background-color: white;
 }
 
+@media (max-width: 350px) {
+    .card {
+        min-width: 400px;
+        max-width: 600px;
+    }
+}
+
 .card-pic {
     height: 70%;
     width: 100%;
