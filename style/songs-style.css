@@ -106,10 +106,16 @@ a:hover {
     background-color: white;
 }
 
-@media (max-width: 350px) {
+@media screen 
+  and (min-width: 1300px) 
+  and (min-height: 2800px) 
+  and (orientation: portrait) {
     .card {
-        min-width: 400px;
-        max-width: 600px;
+        min-width: 800px;
+        height: 50vh;
+        width: 20%;
+        margin: 0 auto;
+        background-color: white;
     }
 }
 
