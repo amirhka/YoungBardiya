@@ -123,6 +123,10 @@ a:hover {
 }
 
 .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 30%;
     width: 100%;
     color: black;
@@ -134,11 +138,7 @@ a:hover {
 }
 
 .card-download {
-    min-width: 290px;
-    min-height: 45px;
-    height: 65%;
     padding: 5px 0;
-    background-color: #784BA0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,12 +147,8 @@ a:hover {
 
 .card-download p {
     font-size: 1.5em !important;
-    color: white;
+    color: black;
     margin: 5px 0;
-}
-
-.card-download:hover {
-    background-color: rgb(79, 33, 119);
 }
 
 #caption h1 {
