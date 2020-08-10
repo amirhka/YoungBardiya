@@ -93,8 +93,9 @@ a:hover {
 #caption {
     height: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+	align-items: center;
 }
 
 .card {
@@ -102,7 +103,7 @@ a:hover {
     min-height: 400px;
     height: 50vh;
     width: 20%;
-    margin: 0 auto;
+    margin: 0 100px;
     background-color: white;
 }
 
@@ -124,6 +125,15 @@ a:hover {
     width: 100%;
     background-color: black;
     background-image: url("./../pics/fuckwizard.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-pic2 {
+    height: 70%;
+    width: 100%;
+    background-color: black;
+    background-image: url("./../pics/bezarinbebaranam.jpg");
     background-size: cover;
     background-position: center;
 }
